@@ -1,0 +1,59 @@
+Week 5 Research
+
+Prompts
+
+What are the four pillars of Object-Oriented Programming? Explain each pillar.
+
+What is the relationship between a Class and an Object?
+
+What are the differences between checked and unchecked exceptions?
+
+What are the differences between abstract classes and interfaces? When should you use one over the other?
+
+What is unit testing and why is it important?
+What is your favorite thing you learned this week?
+
+
+
+
+1.) Four main Cncepts of OOP
+
+Abstraction, Encapsulation, Inheritance, Polymorphism
+Astraction    : Reducing complexity by represting underlying code and data via a simple interface.
+                Implementation hiding is achieved by by hiding internal details of a program and exposing the functionality only.
+Encapsulation : The technique of binding up of data along with its correlate methods as a single unit.
+                Information hiding by separating a classes implementation from its' interface via public methods.
+Inheritance   : Classes may inherit methods and data from an existing parent class.
+Polymorphism  : Objects may assume different forms upon invocation via method overloading or method overriding.
+
+ 2.) What is the relationship between a Class and an Object?
+ 
+ A class is the logical template from which a physical Object is created.
+ Objects are instantiated in memory from the class using the new keyword.
+ 
+ 3.) What are the differences between checked and unchecked exceptions?
+ 
+ A checked exception are compile time exceptions handled by the JVM.
+ such as a file not found exception.
+ An unchecked exception is a run time exception generatied by errors in
+ the code such as array index out of bounds.
+ 
+ 4.) What are the differences between abstract classes and interfaces?
+     When should you use one over the other?
+
+An abstract class may provide the acess specifiers code and fields
+of a class or simply the declarations for the class. A class may
+inherit only one abstract class.
+An interface provides only the signature to be implemented and may not define
+fields or access specifiers.  A class may inherit multiple interfaces.
+Use interfaces when multiple inheritance is desired while only one abstract
+class may be inherited in each child class.
+
+5.) What is unit testing and why is it important? 
+
+Unit testing provides first level of functional testing by testing each individual component of the code. 
+Unit testing validates individual components early in the project lifecycle so as to quickly fix those errors
+and reduce the number of errors propogates to the integration and system testing.
+
+6.) Favorite thing.
+20 question flashcard interview questions brought to light many obsure corners of java , from memeory leaks to thread safety.
